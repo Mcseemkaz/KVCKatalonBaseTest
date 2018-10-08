@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>KVC_Stage</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://stage-login.kvcentral.com/'</initValue>
+      <name>urlKVCStage</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>for wait method duration in sec</description>
+      <initValue>5</initValue>
+      <name>shortWait</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>for wait method duration in sec</description>
+      <initValue>30</initValue>
+      <name>mediumWait</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>for wait method duration in sec</description>
+      <initValue>60</initValue>
+      <name>longWait</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>qa automation test user</description>
+      <initValue>'qauser@mail.ua'</initValue>
+      <name>qaUserLogin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>qa automation test user password</description>
+      <initValue>'kvstudio1'</initValue>
+      <name>qaUserPass</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

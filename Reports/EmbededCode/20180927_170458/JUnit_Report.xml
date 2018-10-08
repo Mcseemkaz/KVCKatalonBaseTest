@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="EmbededCode" time="23" tests="1" failures="0" errors="0">
+   <testsuite name="EmbededCode" tests="1" failures="0" errors="0" time="23" timestamp="2018-09-27 17:05:05" hostname="Professional - User-PC" id="Test Suites/EmbededCode">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Repo\\Katalon_KVC\\KVC\\Reports\\EmbededCode\\20180927_170458"/>
+         <property name="logFiles" value="C:\\Repo\\Katalon_KVC\\KVC\\Reports\\EmbededCode\\20180927_170458\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Professional - User-PC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="021f7571f874bd1fbc60eb2fca691f3c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/EmbededCode_Stage/testEmbededCodeCheckBtn" classname="Test Cases/EmbededCode_Stage/testEmbededCodeCheckBtn" status="PASSED">
+         <system-out><![CDATA[2018-09-27 17:05:05 - [TEST_CASE][PASSED] - Test Cases/EmbededCode_Stage/testEmbededCodeCheckBtn: Test Cases/EmbededCode_Stage/testEmbededCodeCheckBtn
+
+2018-09-27 17:05:05 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://stage-login.kvcentral.com/'
+
+2018-09-27 17:05:15 - [MESSAGE][PASSED] - Browser is opened with url: 'https://stage-login.kvcentral.com/'
+
+2018-09-27 17:05:15 - [TEST_STEP][PASSED] - sendKeys: Keys 'qauser@mail.ua' sent to object: 'Object Repository/Page_Knovio Login/input_Email Address_email'
+
+2018-09-27 17:05:15 - [MESSAGE][PASSED] - Keys 'qauser@mail.ua' sent to object: 'Object Repository/Page_Knovio Login/input_Email Address_email'
+
+2018-09-27 17:05:15 - [TEST_STEP][PASSED] - sendKeys: Keys 'kvstudio1' sent to object: 'Object Repository/Page_Knovio Login/input_Password_password'
+
+2018-09-27 17:05:16 - [MESSAGE][PASSED] - Keys 'kvstudio1' sent to object: 'Object Repository/Page_Knovio Login/input_Password_password'
+
+2018-09-27 17:05:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Knovio Login/button_Sign In' is clicked on
+
+2018-09-27 17:05:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Knovio Login/button_Sign In' is clicked on
+
+2018-09-27 17:05:16 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-09-27 17:05:16 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-09-27 17:05:16 - [TEST_STEP][PASSED] - selectOptionByLabel: All options with label 'QASharingFeaturesEnabled' are selected in object 'Object Repository/Page_Knovio Login/select_GVAccountStage' 
+
+2018-09-27 17:05:17 - [MESSAGE][PASSED] - All options with label 'QASharingFeaturesEnabled' are selected in object 'Object Repository/Page_Knovio Login/select_GVAccountStage' 
+
+2018-09-27 17:05:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Knovio Login/button_Continue' is clicked on
+
+2018-09-27 17:05:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Knovio Login/button_Continue' is clicked on
+
+2018-09-27 17:05:17 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-09-27 17:05:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-09-27 17:05:17 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_KnovioLibrary/span_Share_presentation_852' is visible
+
+2018-09-27 17:05:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_KnovioLibrary/span_Share_presentation_852' is visible
+
+2018-09-27 17:05:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KnovioLibrary/span_Share_presentation_852' is clicked on
+
+2018-09-27 17:05:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KnovioLibrary/span_Share_presentation_852' is clicked on
+
+2018-09-27 17:05:27 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-09-27 17:05:27 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-09-27 17:05:27 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_KnovioLibrary/a_Get Embed Code_btn852' is visible
+
+2018-09-27 17:05:27 - [MESSAGE][PASSED] - Object 'Object Repository/Page_KnovioLibrary/a_Get Embed Code_btn852' is visible
+
+2018-09-27 17:05:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KnovioLibrary/a_Get Embed Code_btn852' is clicked on
+
+2018-09-27 17:05:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KnovioLibrary/a_Get Embed Code_btn852' is clicked on
+
+2018-09-27 17:05:28 - [TEST_STEP][PASSED] - waitForElementNotVisible: Object 'Object Repository/Page_KnovioLibrary/a_Get Embed Code_btn852' is NOT visible
+
+2018-09-27 17:05:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_KnovioLibrary/a_Get Embed Code_btn852' is NOT visible
+
+2018-09-27 17:05:28 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/Page_KnovioLibrary/a_Get Embed Code_btn852' has attribute 'style' with value 'display: none;'
+
+2018-09-27 17:05:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_KnovioLibrary/a_Get Embed Code_btn852' has attribute 'style' with value 'display: none;'
+
+2018-09-27 17:05:28 - [TEST_STEP][PASSED] - Statement - out.println("Passed"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-27 17:05:05 - [TEST_SUITE][PASSED] - EmbededCode: Test Cases/EmbededCode_Stage/testEmbededCodeCheckBtn]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

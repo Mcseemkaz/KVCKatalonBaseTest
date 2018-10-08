@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>testEmbedCodeCheckBtn</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b4a1e83e-80c5-4962-825c-416a42eb08cd</testCaseGuid>
+   <variable>
+      <defaultValue>'https://stage-login.kvcentral.com/'</defaultValue>
+      <description></description>
+      <id>c55d95ec-8361-4b1b-9b24-8e9d065f1ab3</id>
+      <masked>false</masked>
+      <name>urlKVC</name>
+   </variable>
+</TestCaseEntity>

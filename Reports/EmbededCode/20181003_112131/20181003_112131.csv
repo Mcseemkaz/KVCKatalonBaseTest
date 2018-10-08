@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+EmbededCode,,,2018-10-03 11:21:35,2018-10-03 11:21:37,"1,795s",ERROR
+,,,,,,
+Test Cases/EmbededCode_Stage/testEmbedCodeCheckBtn,,,2018-10-03 11:21:36,2018-10-03 11:21:37,"1,136s",ERROR
+Start setup action : setupTestCase,,,2018-10-03 11:21:36,2018-10-03 11:21:37,"0,909s",ERROR
+,,,,,,
+Test Cases/EmbededCode_Stage/testEmbedCodeThumbnailLinkDisplayPlayIconChecked,,,2018-10-03 11:21:37,2018-10-03 11:21:37,"0,049s",ERROR
+Start setup action : setupTestCase,,,2018-10-03 11:21:37,2018-10-03 11:21:37,"0,022s",ERROR
+,,,,,,
+Test Cases/EmbededCode_Stage/testEmbededCodeFullPage,,,2018-10-03 11:21:37,2018-10-03 11:21:37,"0,029s",ERROR
+Start setup action : setupTestCase,,,2018-10-03 11:21:37,2018-10-03 11:21:37,"0,014s",ERROR

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="EmbededCode" time="81" tests="3" failures="0" errors="0">
+   <testsuite name="EmbededCode" tests="3" failures="0" errors="0" time="81" timestamp="2018-10-03 11:52:45" hostname="Professional - User-PC" id="Test Suites/EmbededCode">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Repo\\Katalon_KVC\\KVC\\Reports\\EmbededCode\\20181003_115244"/>
+         <property name="logFiles" value="C:\\Repo\\Katalon_KVC\\KVC\\Reports\\EmbededCode\\20181003_115244\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Professional - User-PC"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="977893827a668d944b666d999468da17"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/EmbededCode_Stage/testEmbedCodeCheckBtn" classname="Test Cases/EmbededCode_Stage/testEmbedCodeCheckBtn" status="PASSED">
+         <system-out><![CDATA[2018-10-03 11:52:46 - [TEST_CASE][PASSED] - Test Cases/EmbededCode_Stage/testEmbedCodeCheckBtn: Test Cases/EmbededCode_Stage/testEmbedCodeCheckBtn
+
+2018-10-03 11:52:46 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+2018-10-03 11:52:46 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'null'
+
+2018-10-03 11:52:50 - [MESSAGE][PASSED] - Browser is opened with url: 'null'
+
+2018-10-03 11:52:50 - [TEST_STEP][PASSED] - deleteAllCookies: Delete all cookies successfully
+
+2018-10-03 11:52:50 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2018-10-03 11:52:50 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+2018-10-03 11:52:50 - [TEST_STEP][PASSED] - AbstractWeb.loginKVC: AbstractWeb.loginKVC is PASSED
+
+2018-10-03 11:52:57 - [MESSAGE][PASSED] - Navigate to 'https://stage-login.kvcentral.com/' successfully
+
+2018-10-03 11:52:57 - [MESSAGE][PASSED] - Keys 'qauser@mail.ua' sent to object: 'Object Repository/Page_Knovio Login/input_Email Address_email'
+
+2018-10-03 11:52:57 - [MESSAGE][PASSED] - Keys 'kvstudio1' sent to object: 'Object Repository/Page_Knovio Login/input_Password_password'
+
+2018-10-03 11:52:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Knovio Login/button_Sign In' is clicked on
+
+2018-10-03 11:52:57 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-03 11:52:59 - [MESSAGE][PASSED] - All options with label 'QASharingFeaturesEnabled' are selected in object 'Object Repository/Page_Knovio Login/select_GVAccountStage' 
+
+2018-10-03 11:52:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Knovio Login/button_Continue' is clicked on
+
+2018-10-03 11:52:59 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-03 11:52:59 - [MESSAGE][PASSED] - AbstractWeb.loginKVC is PASSED
+
+2018-10-03 11:52:59 - [TEST_STEP][PASSED] - waitForElementVisible: Web element with id: 'Object Repository/Page_KnovioLibrary/span_Share_presentation_852' located by 'By.xpath: //a[@id='share-presentation-852']/span' not found
+
+2018-10-03 11:53:08 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Page_KnovioLibrary/span_Share_presentation_852' located by 'By.xpath: //a[@id='share-presentation-852']/span' not found
+
+2018-10-03 11:53:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KnovioLibrary/span_Share_presentation_852' is clicked on
+
+2018-10-03 11:53:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KnovioLibrary/span_Share_presentation_852' is clicked on
+
+2018-10-03 11:53:09 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-03 11:53:09 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-03 11:53:09 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/EmbededCode/a_Get Embed Code_btn852' is visible
+
+2018-10-03 11:53:10 - [MESSAGE][PASSED] - Object 'Object Repository/EmbededCode/a_Get Embed Code_btn852' is visible
+
+2018-10-03 11:53:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/EmbededCode/a_Get Embed Code_btn852' is clicked on
+
+2018-10-03 11:53:10 - [MESSAGE][PASSED] - Object: 'Object Repository/EmbededCode/a_Get Embed Code_btn852' is clicked on
+
+2018-10-03 11:53:10 - [TEST_STEP][PASSED] - waitForElementNotVisible: Object 'Object Repository/EmbededCode/a_Get Embed Code_btn852' is NOT visible
+
+2018-10-03 11:53:10 - [MESSAGE][PASSED] - Object 'Object Repository/EmbededCode/a_Get Embed Code_btn852' is NOT visible
+
+2018-10-03 11:53:10 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/EmbededCode/a_Get Embed Code_btn852' has attribute 'style' with value 'display: none;'
+
+2018-10-03 11:53:10 - [MESSAGE][PASSED] - Object 'Object Repository/EmbededCode/a_Get Embed Code_btn852' has attribute 'style' with value 'display: none;'
+
+2018-10-03 11:53:10 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/EmbededCode/a_Hide Embed Code_btn852' is visible
+
+2018-10-03 11:53:10 - [MESSAGE][PASSED] - Object 'Object Repository/EmbededCode/a_Hide Embed Code_btn852' is visible
+
+2018-10-03 11:53:10 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2018-10-03 11:53:10 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-03 11:53:11 - [MESSAGE][PASSED] - Browser is closed
+
+2018-10-03 11:53:11 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/EmbededCode_Stage/testEmbedCodeThumbnailLinkDisplayPlayIconChecked" classname="Test Cases/EmbededCode_Stage/testEmbedCodeThumbnailLinkDisplayPlayIconChecked" status="PASSED">
+         <system-out><![CDATA[2018-10-03 11:53:11 - [TEST_CASE][PASSED] - Test Cases/EmbededCode_Stage/testEmbedCodeThumbnailLinkDisplayPlayIconChecked: Test Cases/EmbededCode_Stage/testEmbedCodeThumbnailLinkDisplayPlayIconChecked
+
+2018-10-03 11:53:11 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+2018-10-03 11:53:11 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'null'
+
+2018-10-03 11:53:13 - [MESSAGE][PASSED] - Browser is opened with url: 'null'
+
+2018-10-03 11:53:13 - [TEST_STEP][PASSED] - deleteAllCookies: Delete all cookies successfully
+
+2018-10-03 11:53:13 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2018-10-03 11:53:13 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+2018-10-03 11:53:13 - [TEST_STEP][PASSED] - AbstractWeb.loginKVC: AbstractWeb.loginKVC is PASSED
+
+2018-10-03 11:53:18 - [MESSAGE][PASSED] - Navigate to 'https://stage-login.kvcentral.com/' successfully
+
+2018-10-03 11:53:18 - [MESSAGE][PASSED] - Keys 'qauser@mail.ua' sent to object: 'Object Repository/Page_Knovio Login/input_Email Address_email'
+
+2018-10-03 11:53:18 - [MESSAGE][PASSED] - Keys 'kvstudio1' sent to object: 'Object Repository/Page_Knovio Login/input_Password_password'
+
+2018-10-03 11:53:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Knovio Login/button_Sign In' is clicked on
+
+2018-10-03 11:53:19 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-03 11:53:20 - [MESSAGE][PASSED] - All options with label 'QASharingFeaturesEnabled' are selected in object 'Object Repository/Page_Knovio Login/select_GVAccountStage' 
+
+2018-10-03 11:53:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Knovio Login/button_Continue' is clicked on
+
+2018-10-03 11:53:20 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-03 11:53:20 - [MESSAGE][PASSED] - AbstractWeb.loginKVC is PASSED
+
+2018-10-03 11:53:20 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/Page_KnovioLibrary/span_Share_presentation_852' is visible
+
+2018-10-03 11:53:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_KnovioLibrary/span_Share_presentation_852' is visible
+
+2018-10-03 11:53:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KnovioLibrary/span_Share_presentation_852' is clicked on
+
+2018-10-03 11:53:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KnovioLibrary/span_Share_presentation_852' is clicked on
+
+2018-10-03 11:53:30 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-03 11:53:30 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-03 11:53:30 - [TEST_STEP][PASSED] - waitForElementVisible: Object 'Object Repository/EmbededCode/a_Get Embed Code_btn852' is visible
+
+2018-10-03 11:53:30 - [MESSAGE][PASSED] - Object 'Object Repository/EmbededCode/a_Get Embed Code_btn852' is visible
+
+2018-10-03 11:53:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/EmbededCode/a_Get Embed Code_btn852' is clicked on
+
+2018-10-03 11:53:30 - [MESSAGE][PASSED] - Object: 'Object Repository/EmbededCode/a_Get Embed Code_btn852' is clicked on
+
+2018-10-03 11:53:30 - [TEST_STEP][PASSED] - waitForElementNotVisible: Object 'Object Repository/EmbededCode/a_Get Embed Code_btn852' is NOT visible
+
+2018-10-03 11:53:30 - [MESSAGE][PASSED] - Object 'Object Repository/EmbededCode/a_Get Embed Code_btn852' is NOT visible
+
+2018-10-03 11:53:30 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/EmbededCode/a_Get Embed Code_btn852' has attribute 'style' with value 'display: none;'
+
+2018-10-03 11:53:30 - [MESSAGE][PASSED] - Object 'Object Repository/EmbededCode/a_Get Embed Code_btn852' has attribute 'style' with value 'display: none;'
+
+2018-10-03 11:53:30 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/EmbededCode/a_Hide Embed Code_btn852' is visible
+
+2018-10-03 11:53:30 - [MESSAGE][PASSED] - Object 'Object Repository/EmbededCode/a_Hide Embed Code_btn852' is visible
+
+2018-10-03 11:53:30 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-10-03 11:53:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-10-03 11:53:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/EmbededCode/Page_EmbedCode/a_Thumbnail Link' is clicked on
+
+2018-10-03 11:53:36 - [MESSAGE][PASSED] - Object: 'Object Repository/EmbededCode/Page_EmbedCode/a_Thumbnail Link' is clicked on
+
+2018-10-03 11:53:36 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-10-03 11:53:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-10-03 11:53:41 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/EmbededCode/checkboxDisplayThumbnailsIcon' has attribute 'type' with value 'checkbox'
+
+2018-10-03 11:53:41 - [MESSAGE][PASSED] - Object 'Object Repository/EmbededCode/checkboxDisplayThumbnailsIcon' has attribute 'type' with value 'checkbox'
+
+2018-10-03 11:53:41 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/EmbededCode/checkboxDisplayThumbnailsIcon' has attribute 'checked' with value 'true'
+
+2018-10-03 11:53:41 - [MESSAGE][PASSED] - Object 'Object Repository/EmbededCode/checkboxDisplayThumbnailsIcon' has attribute 'checked' with value 'true'
+
+2018-10-03 11:53:41 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2018-10-03 11:53:41 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-03 11:53:41 - [MESSAGE][PASSED] - Browser is closed
+
+2018-10-03 11:53:41 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/EmbededCode_Stage/testEmbededCodeFullPage" classname="Test Cases/EmbededCode_Stage/testEmbededCodeFullPage" status="PASSED">
+         <system-out><![CDATA[2018-10-03 11:53:41 - [TEST_CASE][PASSED] - Test Cases/EmbededCode_Stage/testEmbededCodeFullPage: Test Cases/EmbededCode_Stage/testEmbededCodeFullPage
+
+2018-10-03 11:53:42 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+2018-10-03 11:53:42 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'null'
+
+2018-10-03 11:53:44 - [MESSAGE][PASSED] - Browser is opened with url: 'null'
+
+2018-10-03 11:53:44 - [TEST_STEP][PASSED] - deleteAllCookies: Delete all cookies successfully
+
+2018-10-03 11:53:44 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2018-10-03 11:53:44 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+2018-10-03 11:53:44 - [TEST_STEP][PASSED] - AbstractWeb.loginKVC: AbstractWeb.loginKVC is PASSED
+
+2018-10-03 11:53:49 - [MESSAGE][PASSED] - Navigate to 'https://stage-login.kvcentral.com/' successfully
+
+2018-10-03 11:53:49 - [MESSAGE][PASSED] - Keys 'qauser@mail.ua' sent to object: 'Object Repository/Page_Knovio Login/input_Email Address_email'
+
+2018-10-03 11:53:49 - [MESSAGE][PASSED] - Keys 'kvstudio1' sent to object: 'Object Repository/Page_Knovio Login/input_Password_password'
+
+2018-10-03 11:53:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Knovio Login/button_Sign In' is clicked on
+
+2018-10-03 11:53:50 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-03 11:53:51 - [MESSAGE][PASSED] - All options with label 'QASharingFeaturesEnabled' are selected in object 'Object Repository/Page_Knovio Login/select_GVAccountStage' 
+
+2018-10-03 11:53:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Knovio Login/button_Continue' is clicked on
+
+2018-10-03 11:53:51 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-03 11:53:51 - [MESSAGE][PASSED] - AbstractWeb.loginKVC is PASSED
+
+2018-10-03 11:53:51 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Page_KnovioLibrary/span_Share_presentation_852' is present
+
+2018-10-03 11:54:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_KnovioLibrary/span_Share_presentation_852' is present
+
+2018-10-03 11:54:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_KnovioLibrary/span_Share_presentation_852' is clicked on
+
+2018-10-03 11:54:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_KnovioLibrary/span_Share_presentation_852' is clicked on
+
+2018-10-03 11:54:00 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-10-03 11:54:00 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-10-03 11:54:00 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/EmbededCode/a_Get Embed Code_btn852' is present
+
+2018-10-03 11:54:00 - [MESSAGE][PASSED] - Object 'Object Repository/EmbededCode/a_Get Embed Code_btn852' is present
+
+2018-10-03 11:54:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/EmbededCode/a_Get Embed Code_btn852' is clicked on
+
+2018-10-03 11:54:01 - [MESSAGE][PASSED] - Object: 'Object Repository/EmbededCode/a_Get Embed Code_btn852' is clicked on
+
+2018-10-03 11:54:01 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-10-03 11:54:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-10-03 11:54:06 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/EmbededCode/a_Full Page' is present
+
+2018-10-03 11:54:06 - [MESSAGE][PASSED] - Object 'Object Repository/EmbededCode/a_Full Page' is present
+
+2018-10-03 11:54:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/EmbededCode/a_Full Page' is clicked on
+
+2018-10-03 11:54:06 - [MESSAGE][PASSED] - Object: 'Object Repository/EmbededCode/a_Full Page' is clicked on
+
+2018-10-03 11:54:06 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/EmbededCode/a_Full Page' has attribute 'href' with value 'https://stage-library.kvcentral.com/#fullpage_embed_code'
+
+2018-10-03 11:54:06 - [MESSAGE][PASSED] - Object 'Object Repository/EmbededCode/a_Full Page' has attribute 'href' with value 'https://stage-library.kvcentral.com/#fullpage_embed_code'
+
+2018-10-03 11:54:06 - [TEST_STEP][PASSED] - Start tear down : tearDownTestCase: Method 'tearDownTestCase' complete successfully
+
+2018-10-03 11:54:06 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-10-03 11:54:07 - [MESSAGE][PASSED] - Browser is closed
+
+2018-10-03 11:54:07 - [MESSAGE][PASSED] - Method 'tearDownTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-03 11:52:45 - [TEST_SUITE][PASSED] - EmbededCode: Test Cases/EmbededCode_Stage/testEmbededCodeFullPage]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+EmbededCode,Firefox 62.0,,2018-09-27 18:53:36,2018-09-27 18:53:57,"21,219s",PASSED
+,,,,,,
+Test Cases/EmbededCode_Stage/testEmbededCodeCheckBtn,Firefox 62.0,,2018-09-27 18:53:37,2018-09-27 18:53:57,"20,317s",PASSED
+openBrowser,Firefox 62.0,,2018-09-27 18:53:37,2018-09-27 18:53:47,"9,669s",PASSED
+sendKeys,Firefox 62.0,,2018-09-27 18:53:47,2018-09-27 18:53:47,"0,132s",PASSED
+sendKeys,Firefox 62.0,,2018-09-27 18:53:47,2018-09-27 18:53:47,"0,057s",PASSED
+click,Firefox 62.0,,2018-09-27 18:53:47,2018-09-27 18:53:47,"0,296s",PASSED
+waitForPageLoad,Firefox 62.0,,2018-09-27 18:53:47,2018-09-27 18:53:47,"0,053s",PASSED
+selectOptionByLabel,Firefox 62.0,,2018-09-27 18:53:47,2018-09-27 18:53:49,"1,331s",PASSED
+click,Firefox 62.0,,2018-09-27 18:53:49,2018-09-27 18:53:49,"0,255s",PASSED
+waitForPageLoad,Firefox 62.0,,2018-09-27 18:53:49,2018-09-27 18:53:49,"0,010s",PASSED
+waitForElementVisible,Firefox 62.0,,2018-09-27 18:53:49,2018-09-27 18:53:55,"6,247s",PASSED
+click,Firefox 62.0,,2018-09-27 18:53:55,2018-09-27 18:53:55,"0,055s",PASSED
+waitForPageLoad,Firefox 62.0,,2018-09-27 18:53:55,2018-09-27 18:53:56,"1,033s",PASSED
+waitForElementVisible,Firefox 62.0,,2018-09-27 18:53:56,2018-09-27 18:53:56,"0,042s",PASSED
+click,Firefox 62.0,,2018-09-27 18:53:56,2018-09-27 18:53:56,"0,279s",PASSED
+waitForElementNotVisible,Firefox 62.0,,2018-09-27 18:53:56,2018-09-27 18:53:57,"0,074s",PASSED
+verifyElementAttributeValue,Firefox 62.0,,2018-09-27 18:53:57,2018-09-27 18:53:57,"0,080s",PASSED
+verifyElementVisible,Firefox 62.0,,2018-09-27 18:53:57,2018-09-27 18:53:57,"0,184s",PASSED
+"Statement - out.println(""Passed"")",Firefox 62.0,,2018-09-27 18:53:57,2018-09-27 18:53:57,"0,010s",PASSED

@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+EmbededCode,Chrome 69.0.3497.100,,2018-10-03 11:22:54,2018-10-03 11:24:48,"1m - 54,816s",FAILED
+,,,,,,
+Test Cases/EmbededCode_Stage/testEmbedCodeCheckBtn,Chrome 69.0.3497.100,,2018-10-03 11:22:54,2018-10-03 11:23:43,"48,500s",FAILED
+Start setup action : setupTestCase,Chrome 69.0.3497.100,,2018-10-03 11:22:54,2018-10-03 11:22:55,"0,910s",PASSED
+AbstractWeb.loginKVC,Chrome 69.0.3497.100,,2018-10-03 11:22:55,2018-10-03 11:23:43,"47,171s",FAILED
+,,,,,,
+Test Cases/EmbededCode_Stage/testEmbedCodeThumbnailLinkDisplayPlayIconChecked,Chrome 69.0.3497.100,,2018-10-03 11:23:43,2018-10-03 11:24:22,"39,852s",FAILED
+Start setup action : setupTestCase,Chrome 69.0.3497.100,,2018-10-03 11:23:43,2018-10-03 11:23:43,"0,031s",PASSED
+AbstractWeb.loginKVC,Chrome 69.0.3497.100,,2018-10-03 11:23:43,2018-10-03 11:24:22,"39,613s",FAILED
+,,,,,,
+Test Cases/EmbededCode_Stage/testEmbededCodeFullPage,Chrome 69.0.3497.100,,2018-10-03 11:24:22,2018-10-03 11:24:48,"25,271s",PASSED
+Start setup action : setupTestCase,Chrome 69.0.3497.100,,2018-10-03 11:24:22,2018-10-03 11:24:23,"0,031s",PASSED
+AbstractWeb.loginKVC,Chrome 69.0.3497.100,,2018-10-03 11:24:23,2018-10-03 11:24:32,"9,074s",PASSED
+waitForElementPresent,Chrome 69.0.3497.100,,2018-10-03 11:24:32,2018-10-03 11:24:42,"10,003s",PASSED
+click,Chrome 69.0.3497.100,,2018-10-03 11:24:42,2018-10-03 11:24:42,"0,077s",PASSED
+waitForPageLoad,Chrome 69.0.3497.100,,2018-10-03 11:24:42,2018-10-03 11:24:42,"0,011s",PASSED
+waitForElementPresent,Chrome 69.0.3497.100,,2018-10-03 11:24:42,2018-10-03 11:24:42,"0,536s",PASSED
+click,Chrome 69.0.3497.100,,2018-10-03 11:24:42,2018-10-03 11:24:43,"0,105s",PASSED
+delay,Chrome 69.0.3497.100,,2018-10-03 11:24:43,2018-10-03 11:24:48,"5,023s",PASSED
+waitForElementPresent,Chrome 69.0.3497.100,,2018-10-03 11:24:48,2018-10-03 11:24:48,"0,053s",PASSED
+click,Chrome 69.0.3497.100,,2018-10-03 11:24:48,2018-10-03 11:24:48,"0,106s",PASSED
+verifyElementAttributeValue,Chrome 69.0.3497.100,,2018-10-03 11:24:48,2018-10-03 11:24:48,"0,057s",PASSED

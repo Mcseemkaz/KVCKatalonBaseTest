@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+EmbededCode,,,2018-09-27 17:01:17,2018-09-27 17:01:23,"5,547s",FAILED
+,,,,,,
+Test Cases/EmbededCode_Stage/testEmbededCodeCheckBtn,,,2018-09-27 17:01:18,2018-09-27 17:01:22,"4,454s",FAILED
+openBrowser,,,2018-09-27 17:01:18,2018-09-27 17:01:22,"3,891s",FAILED

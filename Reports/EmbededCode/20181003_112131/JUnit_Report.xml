@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="EmbededCode" time="1" tests="0" failures="0" errors="3">
+   <testsuite name="EmbededCode" tests="0" failures="0" errors="3" time="1" timestamp="2018-10-03 11:21:35" hostname="Professional - User-PC" id="Test Suites/EmbededCode">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Repo\\Katalon_KVC\\KVC\\Reports\\EmbededCode\\20181003_112131"/>
+         <property name="logFiles" value="C:\\Repo\\Katalon_KVC\\KVC\\Reports\\EmbededCode\\20181003_112131\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Professional - User-PC"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+      </properties>
+      <testcase name="Test Cases/EmbededCode_Stage/testEmbedCodeCheckBtn" classname="Test Cases/EmbededCode_Stage/testEmbedCodeCheckBtn" status="ERROR">
+         <error type="ERROR" message=""/>
+         <system-out><![CDATA[2018-10-03 11:21:36 - [TEST_CASE][ERROR] - Test Cases/EmbededCode_Stage/testEmbedCodeCheckBtn: 
+
+2018-10-03 11:21:36 - [TEST_STEP][ERROR] - Start setup action : setupTestCase: Unable to maximize current window (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'USER-PC', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-03 11:21:36 - [TEST_STEP][PASSED] - deleteAllCookies: Delete all cookies successfully
+
+2018-10-03 11:21:37 - [MESSAGE][WARNING] - Cannot delete cookies because browser is closed
+
+2018-10-03 11:21:37 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2018-10-03 11:21:37 - [TEST_STEP][FAILED] - maximizeWindow: Unable to maximize current window (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'USER-PC', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-03 11:21:37 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-03 11:21:37 - [MESSAGE][FAILED] - Unable to maximize current window (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'USER-PC', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-03 11:21:37 - [MESSAGE][ERROR] - Unable to maximize current window (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'USER-PC', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-10-03 11:21:36 - [TEST_CASE][ERROR] - Test Cases/EmbededCode_Stage/testEmbedCodeCheckBtn:]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/EmbededCode_Stage/testEmbedCodeThumbnailLinkDisplayPlayIconChecked" classname="Test Cases/EmbededCode_Stage/testEmbedCodeThumbnailLinkDisplayPlayIconChecked" status="ERROR">
+         <error type="ERROR" message=""/>
+         <system-out><![CDATA[2018-10-03 11:21:37 - [TEST_CASE][ERROR] - Test Cases/EmbededCode_Stage/testEmbedCodeThumbnailLinkDisplayPlayIconChecked: 
+
+2018-10-03 11:21:37 - [TEST_STEP][ERROR] - Start setup action : setupTestCase: Unable to maximize current window (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'USER-PC', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-03 11:21:37 - [TEST_STEP][PASSED] - deleteAllCookies: Delete all cookies successfully
+
+2018-10-03 11:21:37 - [MESSAGE][WARNING] - Cannot delete cookies because browser is closed
+
+2018-10-03 11:21:37 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2018-10-03 11:21:37 - [TEST_STEP][FAILED] - maximizeWindow: Unable to maximize current window (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'USER-PC', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-03 11:21:37 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-03 11:21:37 - [MESSAGE][FAILED] - Unable to maximize current window (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'USER-PC', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-03 11:21:37 - [MESSAGE][ERROR] - Unable to maximize current window (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'USER-PC', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-10-03 11:21:37 - [TEST_CASE][ERROR] - Test Cases/EmbededCode_Stage/testEmbedCodeThumbnailLinkDisplayPlayIconChecked:]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/EmbededCode_Stage/testEmbededCodeFullPage" classname="Test Cases/EmbededCode_Stage/testEmbededCodeFullPage" status="ERROR">
+         <error type="ERROR" message=""/>
+         <system-out><![CDATA[2018-10-03 11:21:37 - [TEST_CASE][ERROR] - Test Cases/EmbededCode_Stage/testEmbededCodeFullPage: 
+
+2018-10-03 11:21:37 - [TEST_STEP][ERROR] - Start setup action : setupTestCase: Unable to maximize current window (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'USER-PC', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-03 11:21:37 - [TEST_STEP][PASSED] - deleteAllCookies: Delete all cookies successfully
+
+2018-10-03 11:21:37 - [MESSAGE][WARNING] - Cannot delete cookies because browser is closed
+
+2018-10-03 11:21:37 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2018-10-03 11:21:37 - [TEST_STEP][FAILED] - maximizeWindow: Unable to maximize current window (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'USER-PC', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-03 11:21:37 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-10-03 11:21:37 - [MESSAGE][FAILED] - Unable to maximize current window (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'USER-PC', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2018-10-03 11:21:37 - [MESSAGE][ERROR] - Unable to maximize current window (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'USER-PC', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-10-03 11:21:37 - [TEST_CASE][ERROR] - Test Cases/EmbededCode_Stage/testEmbededCodeFullPage:]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-03 11:21:35 - [TEST_SUITE][ERROR] - EmbededCode:]]></system-out>
+      <system-err><![CDATA[2018-10-03 11:21:35 - [TEST_SUITE][ERROR] - EmbededCode:]]></system-err>
+   </testsuite>
+</testsuites>

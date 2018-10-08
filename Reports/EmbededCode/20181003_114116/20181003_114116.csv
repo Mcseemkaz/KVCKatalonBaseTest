@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+EmbededCode,Chrome 69.0.3497.100,,2018-10-03 11:41:18,2018-10-03 11:43:17,"1m - 58,848s",FAILED
+,,,,,,
+Test Cases/EmbededCode_Stage/testEmbedCodeCheckBtn,Chrome 69.0.3497.100,,2018-10-03 11:41:18,2018-10-03 11:42:03,"44,871s",FAILED
+Start setup action : setupTestCase,Chrome 69.0.3497.100,,2018-10-03 11:41:19,2018-10-03 11:41:23,"4,235s",PASSED
+AbstractWeb.loginKVC,Chrome 69.0.3497.100,,2018-10-03 11:41:23,2018-10-03 11:42:03,"39,645s",FAILED
+Start tear down : tearDownTestCase,Chrome 69.0.3497.100,,2018-10-03 11:42:03,2018-10-03 11:42:03,"0,596s",PASSED
+,,,,,,
+Test Cases/EmbededCode_Stage/testEmbedCodeThumbnailLinkDisplayPlayIconChecked,Chrome 69.0.3497.100,,2018-10-03 11:42:03,2018-10-03 11:42:47,"43,641s",FAILED
+Start setup action : setupTestCase,Chrome 69.0.3497.100,,2018-10-03 11:42:03,2018-10-03 11:42:05,"2,100s",PASSED
+AbstractWeb.loginKVC,Chrome 69.0.3497.100,,2018-10-03 11:42:06,2018-10-03 11:42:46,"40,769s",FAILED
+Start tear down : tearDownTestCase,Chrome 69.0.3497.100,,2018-10-03 11:42:46,2018-10-03 11:42:47,"0,591s",PASSED
+,,,,,,
+Test Cases/EmbededCode_Stage/testEmbededCodeFullPage,Chrome 69.0.3497.100,,2018-10-03 11:42:47,2018-10-03 11:43:17,"29,856s",PASSED
+Start setup action : setupTestCase,Chrome 69.0.3497.100,,2018-10-03 11:42:47,2018-10-03 11:42:49,"1,974s",PASSED
+AbstractWeb.loginKVC,Chrome 69.0.3497.100,,2018-10-03 11:42:49,2018-10-03 11:42:58,"9,087s",PASSED
+waitForElementPresent,Chrome 69.0.3497.100,,2018-10-03 11:42:58,2018-10-03 11:43:09,"10,815s",PASSED
+click,Chrome 69.0.3497.100,,2018-10-03 11:43:09,2018-10-03 11:43:09,"0,114s",PASSED
+waitForPageLoad,Chrome 69.0.3497.100,,2018-10-03 11:43:09,2018-10-03 11:43:09,"0,010s",PASSED
+waitForElementPresent,Chrome 69.0.3497.100,,2018-10-03 11:43:09,2018-10-03 11:43:10,"0,549s",PASSED
+click,Chrome 69.0.3497.100,,2018-10-03 11:43:10,2018-10-03 11:43:10,"0,106s",PASSED
+delay,Chrome 69.0.3497.100,,2018-10-03 11:43:10,2018-10-03 11:43:15,"5,025s",PASSED
+waitForElementPresent,Chrome 69.0.3497.100,,2018-10-03 11:43:15,2018-10-03 11:43:15,"0,196s",PASSED
+click,Chrome 69.0.3497.100,,2018-10-03 11:43:15,2018-10-03 11:43:16,"0,449s",PASSED
+verifyElementAttributeValue,Chrome 69.0.3497.100,,2018-10-03 11:43:16,2018-10-03 11:43:16,"0,450s",PASSED
+Start tear down : tearDownTestCase,Chrome 69.0.3497.100,,2018-10-03 11:43:16,2018-10-03 11:43:17,"0,712s",PASSED

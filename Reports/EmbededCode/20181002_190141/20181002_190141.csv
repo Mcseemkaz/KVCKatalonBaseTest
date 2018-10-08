@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+EmbededCode,Chrome 69.0.3497.100,,2018-10-02 19:01:43,2018-10-02 19:03:23,"1m - 40,153s",FAILED
+,,,,,,
+Test Cases/EmbededCode_Stage/testEmbedCodeCheckBtn,Chrome 69.0.3497.100,,2018-10-02 19:01:43,2018-10-02 19:02:24,"40,164s",FAILED
+AbstractWeb.loginKVC,Chrome 69.0.3497.100,,2018-10-02 19:01:44,2018-10-02 19:02:24,"39,734s",FAILED
+,,,,,,
+Test Cases/EmbededCode_Stage/testEmbedCodeThumbnailLinkDisplayPlayIconChecked,Chrome 69.0.3497.100,,2018-10-02 19:02:24,2018-10-02 19:03:02,"37,928s",FAILED
+AbstractWeb.loginKVC,Chrome 69.0.3497.100,,2018-10-02 19:02:24,2018-10-02 19:03:02,"37,667s",FAILED
+,,,,,,
+Test Cases/EmbededCode_Stage/testEmbededCodeFullPage,Chrome 69.0.3497.100,,2018-10-02 19:03:02,2018-10-02 19:03:23,"20,946s",PASSED
+AbstractWeb.loginKVC,Chrome 69.0.3497.100,,2018-10-02 19:03:02,2018-10-02 19:03:10,"7,819s",PASSED
+waitForElementPresent,Chrome 69.0.3497.100,,2018-10-02 19:03:10,2018-10-02 19:03:17,"6,904s",PASSED
+click,Chrome 69.0.3497.100,,2018-10-02 19:03:17,2018-10-02 19:03:17,"0,071s",PASSED
+waitForPageLoad,Chrome 69.0.3497.100,,2018-10-02 19:03:17,2018-10-02 19:03:17,"0,013s",PASSED
+waitForElementPresent,Chrome 69.0.3497.100,,2018-10-02 19:03:17,2018-10-02 19:03:17,"0,535s",PASSED
+click,Chrome 69.0.3497.100,,2018-10-02 19:03:17,2018-10-02 19:03:17,"0,075s",PASSED
+delay,Chrome 69.0.3497.100,,2018-10-02 19:03:17,2018-10-02 19:03:22,"5,019s",PASSED
+waitForElementPresent,Chrome 69.0.3497.100,,2018-10-02 19:03:22,2018-10-02 19:03:22,"0,035s",PASSED
+click,Chrome 69.0.3497.100,,2018-10-02 19:03:22,2018-10-02 19:03:22,"0,111s",PASSED
+verifyElementAttributeValue,Chrome 69.0.3497.100,,2018-10-02 19:03:22,2018-10-02 19:03:23,"0,061s",PASSED
